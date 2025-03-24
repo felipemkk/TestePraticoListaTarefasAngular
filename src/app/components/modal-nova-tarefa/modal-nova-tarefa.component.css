@@ -1,0 +1,87 @@
+.modal {
+    max-width: 900px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 100;
+    border: 1px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+  
+}
+
+.input-tarefa{
+padding: 8px;
+margin-right: 10px;
+border: 1px solid steelblue;
+border-radius: 10px;
+font-size: 14px;
+
+}
+
+.input-cat{
+padding: 8px;
+margin-right: 10px;
+border: 1px solid steelblue;
+border-radius: 10px;
+font-size: 14px;
+
+}
+
+
+.btn-new {
+display: inline-block;
+background: #5bb0f6;
+color: rgb(255, 255, 255);
+border: none;
+padding: 10px 20px;
+margin: 5px;
+border-radius: 8px;
+cursor: pointer;
+text-decoration: none;
+font-size: 15px;
+font-family: inherit;
+}
+
+.btn-new:hover {
+display: inline-block;
+background: #128df2;
+color: #fff;
+border: none;
+padding: 10px 20px;
+margin: 5px;
+border-radius: 8px;
+cursor: pointer;
+text-decoration: none;
+font-size: 15px;
+font-family: inherit;
+}
+.btn-cancel {
+display: inline-block;
+background: #f65b5b;
+color: rgb(255, 255, 255);
+border: none;
+padding: 10px 20px;
+margin: 5px;
+border-radius: 8px;
+cursor: pointer;
+text-decoration: none;
+font-size: 15px;
+font-family: inherit;
+}
+.btn-cancel:hover {
+display: inline-block;
+background: #fa0707;
+color: #fff;
+border: none;
+padding: 10px 20px;
+margin: 5px;
+border-radius: 8px;
+cursor: pointer;
+text-decoration: none;
+font-size: 15px;
+font-family: inherit;
+}
+
+.btn:active {
+transform: scale(0.8);
+}
