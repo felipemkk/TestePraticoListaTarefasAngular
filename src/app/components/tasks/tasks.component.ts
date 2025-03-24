@@ -47,12 +47,15 @@ deletarTarefa(tarefa: tarefa): void {
       tarefa.concluido = !tarefa.concluido;
 }
 
-TarefaEditada(tarefa: tarefa): void {
-  this.tarefas = this.tarefas.map(t => t.id === tarefa.id ? tarefa : t);  
-
+TarefaEditada(tarefaEditada: tarefa): void {
+ const index = this.tarefas.findIndex(t => t.id === tarefaEditada.id);
+ if index !== -1   {
+   this.tarefas[index] = tarefaEditada;   
+ 
+}
+}
 }
 
-}
 export interface tarefa {
   id: number,
   tarefa: string,
