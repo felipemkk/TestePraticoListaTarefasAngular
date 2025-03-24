@@ -4,6 +4,11 @@ https://github.com/felipemkk/TestePraticoListaTarefasAngular#
 -> Para marcar uma tarefa como concluída basta dar 2 cliques em qualquer lugar do container referente.
 -> Para desmarcar a conclusão, basta dar 2 cliques novamente. 
 
+* Criei uma função que analisa os arrays criados e cria um novo id, diferente dos existentes, para a nova tarefa.
+
+Estava a construir uma função que verifica os itens do array e, se o array estiver vazio mostraria a mensagem: Nenhuma tarefa cadastrada. Cadastre uma nova tarefa.
+Infelizmente escorrei no tempo buscando o melhor.
+
 
 
 OBS: Querido João, 
